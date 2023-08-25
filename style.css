@@ -54,7 +54,7 @@ input[type="button"]:hover{
 @media (max-width:427px) {
 
     .calci{
-    height:330px;
+    height:340px;
     background-color: #3d4543;
     padding:4px;
     padding-top: 0px;
@@ -65,7 +65,7 @@ input[type="button"]:hover{
 .xyz{
     background-color: #bccd95;
     width:240px;
-    height:70px;
+    height:90px;
     color: #000;
     border-radius: 8px;
     padding-right: 3px;
@@ -83,6 +83,9 @@ input{
     margin:4px;
     outline:none;
     border:0px solid;
+}
+#mid{
+font-size:20px;
 }
 
 }
