@@ -14,11 +14,14 @@ function validate(x){
 }
 function ansi(inp){
     if(proof==1){
-        if(inp=='ac'){
+        if(inp=='ac' || inp=='back'){
         concatinput='';
         document.getElementById("ans").innerHTML='';
         document.getElementById("mid").innerHTML='';
         document.getElementById("res").innerHTML='';
+        }
+        else if(inp=='='){
+            proof=1;
         }
         else{
         document.getElementById("ans").innerHTML=concatinput+inp;
